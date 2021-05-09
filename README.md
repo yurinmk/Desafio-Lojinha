@@ -43,9 +43,7 @@
 
 <p align="center"><strong>Atenção: ⚠</strong></p>
 
-<div style="display: flex;
-  flex-direction: column;
-  align-items: center;">
+<div align="center">
     <ul>
 
   <li>Rodar <strong>yarn install</strong> para instalar as dependências tanto no back-end quanto no front-end;</li>
