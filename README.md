@@ -6,6 +6,21 @@
 
 </br>
 
+<h1 align="center">Ferramentas utilizadas</h1>
+
+<p align="center">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-VSCode.svg" alt="VSCode" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-NodeJS.svg" alt="NodeJS" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-React.svg" alt="ReactJS" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-HTML.svg" alt="HTML" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-CSS.svg" alt="CSS" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-MySQL.svg" alt="MySQL" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-Redux.svg" alt="Redux" style="vertical-align:top; margin:4px">
+ <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-Sequelize.svg" alt="Sequelize" style="vertical-align:top; margin:4px">
+</p>
+
+</br>
+
 <h1 align="center">Descrição do projeto</h1>
 
 <p align="center">Projeto de uma Lojinha desenvolvido como um desafio para uma vaga de desenvolvimento front-end React.</p>
@@ -26,37 +41,17 @@
 
 </br>
 
-<p align="center"><strong>Atenção: ⚠</strong>
+<p align="center"><strong>Atenção: ⚠</strong></p>
 
-<ul>
+<ul align="center">
 
-<li>Rodar <strong>yarn install</strong> para instalar as dependências tanto no back-end quanto no front-end;</li>
-<li>Rodar <strong>yarn start</strong> para rodar a palicação tanto no back-end quanto no front-end;</li>
-<li>Script do banco de dados está incluso no repositório para facilictar a construção do mesmo.</li>
+<li align="start">Rodar <strong>yarn install</strong> para instalar as dependências tanto no back-end quanto no front-end;</li>
+<li align="start">Rodar <strong>yarn start</strong> para rodar a palicação tanto no back-end quanto no front-end;</li>
+<li align="start">Script do banco de dados está incluso no repositório para facilictar a construção do mesmo.</li>
 
 </ul>
 
-</p>
-
 </br>
-
-<h1 align="center">Ferramentas utilizadas</h1>
-
-<p align="center">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-VSCode.svg" alt="VSCode" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-NodeJS.svg" alt="NodeJS" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-React.svg" alt="ReactJS" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-HTML.svg" alt="HTML" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-CSS.svg" alt="CSS" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-MySQL.svg" alt="MySQL" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-Redux.svg" alt="Redux" style="vertical-align:top; margin:4px">
- <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/SR-Sequelize.svg" alt="Sequelize" style="vertical-align:top; margin:4px">
-
-</p>
-
-</br>
-
-<p> </p>
 
 <h1 align="center">Você pode me encontar nas redes</h1>
 
