@@ -1,0 +1,23 @@
+.container-home {
+  display: grid;
+
+  grid-template-columns: repeat(1, minmax(250px, 1fr));
+  grid-template-rows: 25vh 75vh;
+  grid-template-areas: "header" "main";
+}
+
+.container-home .container-header {
+  width: 100%;
+  height: 100%;
+
+  grid-area: header;
+}
+
+.container-home .container-main {
+  width: 100%;
+  min-height: 100%;
+
+  grid-area: main;
+
+  background: var(--body-color);
+}

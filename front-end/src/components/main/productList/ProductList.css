@@ -1,0 +1,69 @@
+.container-productList {
+  width: 100%;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-productList .container-search {
+  width: 100%;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-productList .container-search .search input {
+  width: 660px;
+  height: 55px;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
+
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
+
+.container-productList .container-search .search img {
+  position: relative;
+  top: 2px;
+  right: 35px;
+}
+
+.container-productList .title {
+  width: 100%;
+
+  padding-left: 50px;
+}
+
+.container-productList .title p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.container-productList .container-products {
+  width: 100%;
+  height: 100%;
+}
+
+.container-productList .container-products section {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+@media (max-width: 1440px) and (max-height: 1000px) {
+  .container-productList .container-search .search input {
+    width: 500px;
+    height: 55px;
+  }
+}

@@ -1,0 +1,205 @@
+.header-higher {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 5px solid var(--outline-color);
+}
+
+.header-higher .header-left {
+  width: 60%;
+  height: 100%;
+  padding-left: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-higher .header-left .img {
+  border: 2px solid var(--outline-color);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-higher .header-left .header-txt {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  background: #fff;
+}
+
+.header-higher .header-left .header-txt .container-title {
+  width: 60%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-higher .header-left .header-txt .container-title h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.header-higher .header-left .header-txt .container-title .open-close {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-higher .header-left .header-txt .container-title .open-close p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1bbb16;
+}
+
+.header-higher .header-left .header-txt .container-address {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header-higher .header-left .header-txt .container-address p {
+  font-size: 1.9rem;
+  font-weight: normal;
+  text-align: start;
+}
+
+.header-higher .header-left .header-txt .container-delivery {
+  width: 60%;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-higher .header-left .header-txt .container-delivery .time-delivery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-higher .header-left .header-txt .container-delivery .text-delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-higher .header-left .header-txt .container-delivery .time-delivery p,
+.header-higher .header-left .header-txt .container-delivery .text-delivery p {
+  padding-left: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  text-align: start;
+
+  color: var(--default-text-color);
+}
+
+.header-higher .header-left .header-txt .container-delivery .time-delivery span,
+.header-higher
+  .header-left
+  .header-txt
+  .container-delivery
+  .text-delivery
+  span {
+  padding-left: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  color: var(--result-default-text-color);
+}
+
+.header-higher .header-right {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  background: #fff;
+}
+
+.header-higher .header-right .area-shopping-car {
+  width: 45%;
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-higher .header-right .area-shopping-car .division {
+  width: 2px;
+  height: 80%;
+  padding: 2px;
+
+  background: #ececec;
+}
+
+.header-higher .header-right .area-shopping-car .shopping-car {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-right: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-higher .header-right .quantity-products {
+  padding-left: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header-higher .header-right .quantity-products p {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header-higher .header-right .quantity-products .quantity {
+  font-size: 1.8rem;
+  color: var(--default-text-color);
+}
+
+.header-higher .header-right .quantity-products .price {
+  font-size: 2rem;
+  color: var(--outline-color);
+}
+
+@media (max-width: 1440px) and (max-height: 1000px) {
+  .header-higher .header-right .area-shopping-car .shopping-car img {
+    width: 18px;
+    height: 18px;
+  }
+}

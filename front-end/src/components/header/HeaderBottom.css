@@ -1,0 +1,36 @@
+.header-bottom {
+  width: 100%;
+  height: 30%;
+
+  background: #cdcd;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-bottom section {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  background: #fff;
+}
+
+.header-bottom .menu-activated {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: bold;
+  color: var(--outline-color);
+}
+
+.header-bottom .menu-disabled {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--default-text-color);
+}
